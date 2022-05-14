@@ -1,0 +1,170 @@
+.row {
+  margin-top: 100px;
+  width: 100%;
+}
+.column1 {
+  
+  float: left;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: #0d1b2b;
+  border: 2px solid #de1c29;
+  color: #de1c29;
+  padding: 10px;
+  border-radius: 25px;
+  text-align: right;
+  
+}
+.column2 {
+  float: left;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: #28918a;
+  border: 2px solid rgb(2, 0, 8);
+  color: rgb(2, 0, 8);
+  padding: 10px;
+  border-radius: 25px;
+  text-align: right;
+}
+.column3 {
+  float: right;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ad1c29;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 25px;
+  text-align: right;
+}
+.column31 {
+  float: right;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ad1c29;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 25px;
+  text-align: left;
+}
+
+.column4 {
+  float: left;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f67f1b;
+  border: 2px solid #000000;
+  color: #000000;
+  padding: 10px;
+  border-radius: 25px;
+  text-align: right;
+}
+.column5 {
+  float: left;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: #0a5a4f;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 25px;
+  text-align: right;
+}
+.column6 {
+  float: left;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: #0084fb;
+  border: 2px solid #f596c8;
+  color: #f70101;
+  padding: 10px;
+  border-radius: 25px;
+  text-align: right;
+}
+.column7 {
+  float: left;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: 2px solid #081d5b;
+  color: #081d5b;
+  padding: 10px;
+  border-radius: 25px;
+  text-align: right;
+}
+.column8 {
+  float: left;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: #8e1d2f;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 25px;
+  text-align: right;
+}
+.column9 {
+  float: left;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: #da291c;
+  border: 2px solid #e6e6e7;
+  color: #0032a0;
+  padding: 10px;
+  border-radius: 25px;
+  text-align: right;
+}
+.column10 {
+  float: left;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: #00246a;
+  border: 2px solid #245fa3;
+  color: #f7f8fa;
+  padding: 10px;
+  border-radius: 25px;
+  text-align: right;
+}
+  
+
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: flex;
+  flex-direction: row;
+  clear: both;
+}
+
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 960px) {
+  .column1,
+  .column2,
+  .column3,
+  .column4,
+  .column5,
+  .column6,
+  .column7,
+  .column8,
+  .column9,
+  .column10
+  {
+    width: 100%;
+
+  }
+}

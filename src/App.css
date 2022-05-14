@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    
+  }
+
+ 
+
+.home1 {
+    background-image: url('../src/assets/images/vozaci/img_mv.png');
+    width: 350px;
+    height: 250px;
+    position: relative;
+    border: #fff;
+    border-radius: 25px;
+    
+  }
+.home2 {
+    background-image: url('../src/assets/images/vozaci/img_cp.png');
+    width: 350px;
+    height: 250px;
+    position: relative;
+    border: #fff;
+    border-radius: 25px;
+}
+.home3 {
+  background-image: url('../src/assets/images/vozaci/img_lh.png');
+  width: 350px;
+  height: 250px;
+  position: relative;
+  border: #fff;
+  border-radius: 25px;
+}
+.home4 {
+  background-image: url('../src/assets/images/vozaci/img_gr.png');
+  width: 350px;
+  height: 250px;
+  position: relative;
+  border: #fff;
+  border-radius: 25px;
+}
+.home5 {
+  background-image: url('../src/assets/images/vozaci/img_cl.png');
+  width: 350px;
+  height: 250px;
+  position: relative;
+  border: #fff;
+  border-radius: 25px;
+}
+.home6 {
+  background-image: url('../src/assets/images/vozaci/img_cs.png');
+  width: 350px;
+  height: 250px;
+  position: relative;
+  border: #fff;
+  border-radius: 25px;
+}
+.home7 {
+  background-image: url('../src/assets/images/vozaci/img_dr.png');
+  width: 350px;
+  height: 250px;
+  position: relative;
+  border: #fff;
+  border-radius: 25px;
+}
+.home8 {
+  background-image: url('../src/assets/images/vozaci/img_ln.png');
+  width: 350px;
+  height: 250px;
+  position: relative;
+  border: #fff;
+  border-radius: 25px;
+}
+.home9 {
+  background-image: url('../src/assets/images/vozaci/img_sv.png');
+  width: 350px;
+  height: 250px;
+  position: relative;
+  border: #fff;
+  border-radius: 25px;
+}
+.home10 {
+  background-image: url('../src/assets/images/vozaci/img_ls.png');
+  width: 350px;
+  height: 250px;
+  position: relative;
+  border: #fff;
+  border-radius: 25px;
+}
+.home11 {
+  background-image: url('../src/assets/images/vozaci/img_fa.png');
+  width: 350px;
+  height: 250px;
+  position: relative;
+  border: #fff;
+  border-radius: 25px;
+}
+.home12 {
+  background-image: url('../src/assets/images/vozaci/img_eo.png');
+  width: 350px;
+  height: 250px;
+  position: relative;
+  border: #fff;
+  border-radius: 25px;
+}
+.home13 {
+  background-image: url('../src/assets/images/vozaci/img_pg.png');
+  width: 350px;
+  height: 250px;
+  position: relative;
+  border: #fff;
+  border-radius: 25px;
+}
+.home14 {
+  background-image: url('../src/assets/images/vozaci/img_yt.png');
+  width: 350px;
+  height: 250px;
+  position: relative;
+  border: #fff;
+  border-radius: 25px;
+}
+.home15 {
+  background-image: url('../src/assets/images/vozaci/img_vb.png');
+  width: 350px;
+  height: 250px;
+  position: relative;
+  border: #fff;
+  border-radius: 25px;
+}
+.home16 {
+  background-image: url('../src/assets/images/vozaci/img_tg.png');
+  width: 350px;
+  height: 250px;
+  position: relative;
+  border: #fff;
+  border-radius: 25px;
+}
+.home17 {
+  background-image: url('../src/assets/images/vozaci/img_km.png');
+  width: 350px;
+  height: 250px;
+  position: relative;
+  border: #fff;
+  border-radius: 25px;
+}
+.home18 {
+  background-image: url('../src/assets/images/vozaci/img_ms.png');
+  width: 350px;
+  height: 250px;
+  position: relative;
+  border: #fff;
+  border-radius: 25px;
+}
+.home19 {
+  background-image: url('../src/assets/images/vozaci/img_aa.png');
+  width: 350px;
+  height: 250px;
+  position: relative;
+  border: #fff;
+  border-radius: 25px;
+}
+.home20 {
+  background-image: url('../src/assets/images/vozaci/img_nl.png');
+  width: 350px;
+  height: 250px;
+  position: relative;
+  border: #fff;
+  border-radius: 25px;
+}
+
+.ferr1 {
+  background-image: url('../src/assets/images/helmets/helmet-cl.png');
+  width: 250px;
+  height: 250px;
+  position: center;
+ 
+}

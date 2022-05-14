@@ -1,0 +1,383 @@
+.statistika {
+    font-family: sans-serif;
+    text-align: center;
+   
+  }
+  
+
+  @import url(https://fonts.googleapis.com/css?family=Oswald:400|Raleway:400,700,400italic,700italic);
+  
+  /************************************************/
+  /*************** GENERAL SETTINGS ***************/
+  /************************************************/
+  
+  *,
+  :before,
+  :after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #ffff;
+    color: #0230e6;
+    font: 16px/1.25 'Raleway', sans-serif;
+    padding: 0.5em;
+    
+  }
+  
+  main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid red;
+    border-radius: 25px;
+    margin-top: 100px;
+    
+    
+  }
+  footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 64em;
+    width: 100%;
+    height: 250px;
+    border: 1px solid red;
+    border-radius: 25px;
+  }
+  
+  /* Headings */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    margin: 0.25em 0;
+    text-align: center;
+  }
+  
+  /* Links */
+  a {
+    color: #a2ed56;
+  }
+  
+  a:hover {
+    color: #83e4e2;
+  }
+  
+  
+  
+  /************************************************/
+  /********************* TABLE ********************/
+  /************************************************/
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  
+  
+  /*** HEADER ***/
+  table thead {
+    border-bottom: 2px solid #e5e5e5;
+  }
+  
+  table th,
+  table td {
+    padding: 1em 0.5em;
+    position: relative;
+  }
+  
+  table th {
+    font: 400 1.25em/1 'Oswald', sans-serif;
+    letter-spacing: 0.025em;
+    outline: none;
+    padding-right: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  table th:hover,
+  table th:focus {
+    color: #050505;
+  }
+  
+  /* Arrows */
+  table th:after,
+  table th:before {
+    border: 0.35em solid transparent;
+    content: '';
+    height: 0; 
+    position: absolute;
+    right: 0.65em;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: border-color 0.2s ease-in-out;
+    width: 0; 
+  }
+  
+  table th:before {
+    border-bottom-color: rgba(255, 255, 255, 0.25);
+    border-top: 0;
+    margin-top: -0.35em;
+  }
+  
+  table th:after {
+    border-bottom: 0;
+    border-top-color: rgba(255, 255, 255, 0.25);
+    margin-top: 0.35em;
+  }
+  
+  table th:hover:before,
+  table th:focus:before {
+    border-bottom-color: rgba(255, 255, 255, 0.75);
+  }
+  
+  table th:hover:after,
+  table th:focus:after {
+    border-top-color: rgba(255, 255, 255, 0.75);
+  }
+  
+  table th[aria-sort="ascending"],
+  table th[aria-sort="descending"] {
+    color: #050505;
+  }
+  
+  table th[aria-sort="ascending"]:before {
+    border-bottom-color: #f9fcf7;
+    opacity: 0.1;
+  }
+  
+  table th[aria-sort="ascending"]:after {
+    border-top-color: rgba(255, 255, 255, 0.25);
+  }
+  
+  table th[aria-sort="descending"]:before {
+    border-bottom-color: rgba(255, 255, 255, 0.25);
+  }
+  
+  table th[aria-sort="descending"]:after {
+    border-top-color: #f9fcf7;
+    opacity: 0.1;
+  }
+  
+  .ferr {
+    
+    border-bottom: 2px solid #a70f26;
+    
+  }
+  .ferr:hover {
+    background-color: #a70f26;
+    border-color: #a70f26;
+    color: #fcf9f9;
+  }
+  .merc {
+    
+    border-bottom: 2px solid #28918a;
+    
+  }
+  .merc:hover {
+    background-color: #28918a;
+    border-color: #28918a;
+    color: #3b3839;
+  }
+  .rb {
+    
+    border-bottom: 2px solid #0d1b2b;
+    
+  }
+  .rb:hover {
+    background-color: #0d1b2b;
+    border-color: #0d1b2b;
+    color: #de1c29;
+  }
+
+  .mclaren {
+    
+    border-bottom: 2px solid #f67f1b;
+    
+  }
+  .mclaren:hover {
+    background-color: #f67f1b;
+    border-color: #f67f1b;
+    color: #67d9fb;
+  }
+  .alpine {
+    
+    border-bottom: 2px solid #0084fb;
+    
+  }
+  .alpine:hover {
+    background-color: #0084fb;
+    border-color: #0084fb;
+    color: #f596c8;
+  }
+  .astm {
+    
+    border-bottom: 2px solid #0a5a4f;
+    
+  }
+  .astm:hover {
+    background-color: #0a5a4f;
+    border-color: #0a5a4f;
+    color: #ffffff;
+  }
+  .atauri {
+    
+    border-bottom: 2px solid #081d5b;
+    
+  }
+  .atauri:hover {
+    background-color: #081d5b;
+    border-color: #081d5b;
+    color: #ffffff;
+  }
+  .alfa {
+    
+    border-bottom: 2px solid #8e1d2f;
+    
+  }
+  .alfa:hover {
+    background-color: #8e1d2f;
+    border-color: #8e1d2f;
+    color: #ffffff;
+  }
+  .hass {
+    
+    border-bottom: 2px solid #da291c;
+    
+  }
+  .hass:hover {
+    background-color: #da291c;
+    border-color: #da291c;
+    color: #0032a0;
+  }
+  .will {
+    
+    border-bottom: 2px solid #245fa3;
+    
+  }
+  .will:hover {
+    background-color: #245fa3;
+    border-color: #245fa3;
+    color: #0032a0;
+  }
+  
+  
+  
+  
+  /* Name Cell */
+  table td[data-label="Vozac"] {
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    text-align: center;
+  }
+  
+  /* Animal Cells */
+  table td[data-label="Br-utrka"],
+  table td[data-label="Br-pob"],
+  table td[data-label="Br-pod"],
+  table td[data-label="Br-bod"] {
+    text-align: center;
+  }
+  
+  /* Check and Cross Marks */
+  table tr span.yes,
+  table tr span.no {
+    transition: all 0.2s ease-in-out;
+  }
+  
+  table tr:hover span.yes,
+  table tr:hover span.no {
+    color: #fff;
+  }
+  
+  table span.yes {
+    color: #a2ed56;
+    font-size: 1.25em;
+  }
+  
+  table span.no {
+    color: #fd6470;
+    font-size: 0.875em;
+  }
+  
+  
+  
+  /*** FOOTER ***/
+  footer {
+    text-align: center;
+  }
+  
+  footer a {
+    display: inline-block;
+  }
+  
+  
+  
+  
+  
+  /************************************************/
+  /***************** MEDIA QUERIES ****************/
+  /************************************************/
+  @media (max-width: 960px) {
+  
+    /*** TABLE ***/
+    table tr,
+    table td {
+      display: block;
+    }
+  
+    table tr {
+      padding: 0.75em 0;
+    }
+  
+    /* Header */
+    table thead tr {
+      text-align: center;
+    }
+  
+    table th {
+      display: block;
+      padding: 0.25em 0.5em;
+      text-align: center;
+    }
+  
+    /* Body */
+    table td {
+      padding: 0.25em 0.5em 0.25em 6.5em;
+      
+    }
+  
+    table td:before {
+      content: attr(data-label);
+      font: 400 1.125em/1 'Oswald', sans-serif;
+      left: 0.5em;
+      position: absolute;
+      top: 0.125em;
+      width: 100%;
+      text-align: left;
+    }
+  
+    /* Animal Cells */
+  table td[data-label="Br-utrka"],
+  table td[data-label="Br-pob"],
+  table td[data-label="Br-pod"],
+  table td[data-label="Team"],
+  
+  table td[data-label="Br-bod"] {
+      text-align: center;
+    }
+  
+    /* Check and Cross Marks */
+    table span.yes {
+      line-height: 0.875;
+    }
+  }

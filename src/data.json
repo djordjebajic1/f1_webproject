@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "full_name": "Charles Leclerc",
+    "team": "Scuderia Ferrari",
+    "wins": 2,
+    "podiums": 4,
+    "points": 104
+  },
+  {
+    "id": 2,
+    "full_name": "Carlos Sianz Jr.",
+    "team": "Scuderia Ferrari",
+    "wins": 0,
+    "podiums": 3,
+    "points": 53
+  },
+  {
+    "id": 3,
+    "full_name": "Max Verstappen",
+    "team": "Red Bull Racing",
+    "wins": 3,
+    "podiums": 3,
+    "points": 85
+  },
+  {
+    "id": 4,
+    "full_name": "Sergio Perez",
+    "team": "Red Bull Racing",
+    "wins": 0,
+    "podiums": 2,
+    "points": 66
+  },
+  {
+    "id": 5,
+    "full_name": "Lewis Hamilton",
+    "team": "Mercedes AMG Petronas",
+    "wins": 0,
+    "podiums": 1,
+    "points": 36
+  },
+  {
+    "id": 6,
+    "full_name": "George Russell",
+    "team": "Mercedes AMG Petronas",
+    "wins": 0,
+    "podiums": 1,
+    "points": 59
+  },
+  {
+    "id": 7,
+    "full_name": "Daniel Riccairdo",
+    "team": "Mclaren F1 Team",
+    "wins": 0,
+    "podiums": 0,
+    "points": 11
+  },
+  {
+    "id": 8,
+    "full_name": "Lando Norris",
+    "team": "Mclaren F1 Team",
+    "wins": 0,
+    "podiums": 1,
+    "points": 35
+  },
+  {
+    "id": 9,
+    "full_name": "Sebastian Vettel",
+    "team": "Aston Martin F1 Team",
+    "wins": 0,
+    "podiums": 0,
+    "points": 4
+  },
+  {
+    "id": 10,
+    "full_name": "Lance Stroll",
+    "team": "Aston Martin F1 Team",
+    "wins": 0,
+    "podiums": 0,
+    "points": 2
+  },
+  {
+    "id": 11,
+    "full_name": "Fernando Alonso",
+    "team": "Alpine F1 Team",
+    "wins": 0,
+    "podiums": 0,
+    "points": 2
+  },
+  {
+    "id": 12,
+    "full_name": "Esteban Ocon",
+    "team": "Alpine F1 Team",
+    "wins": 0,
+    "podiums": 0,
+    "points": 24
+  },
+  {
+    "id": 13,
+    "full_name": "Pierre Gasly",
+    "team": "Scuderia AlphaTauri",
+    "wins": 0,
+    "podiums": 0,
+    "points": 6
+  },
+  {
+    "id": 14,
+    "full_name": "Yuki Tsunoda",
+    "team": "Scuderia AlphaTauri",
+    "wins": 0,
+    "podiums": 0,
+    "points": 10
+  },
+  {
+    "id": 15,
+    "full_name": "Valtteri Bottas",
+    "team": "Alfa Romeo F1 Team",
+    "wins": 0,
+    "podiums": 0,
+    "points": 30
+  },
+  {
+    "id": 16,
+    "full_name": "Thou Guanyu",
+    "team": "Alfa Romeo F1 Team",
+    "wins": 0,
+    "podiums": 0,
+    "points": 1
+  },
+  {
+    "id": 17,
+    "full_name": "Kevim Magnussen",
+    "team": "Hass F1 Team",
+    "wins": 0,
+    "podiums": 0,
+    "points": 15
+  },
+  {
+    "id": 18,
+    "full_name": "Mick Schumacher",
+    "team": "Hass F1 Team",
+    "wins": 0,
+    "podiums": 0,
+    "points": 0
+  },
+  {
+    "id": 19,
+    "full_name": "Alexander Albon",
+    "team": "Williams Racing Team",
+    "wins": 0,
+    "podiums": 0,
+    "points": 3
+  },
+  {
+    "id": 20,
+    "full_name": "Nicholas Latifi",
+    "team": "Williams Racing Team",
+    "wins": 0,
+    "podiums": 0,
+    "points": 0
+  }
+]
